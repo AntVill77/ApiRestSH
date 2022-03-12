@@ -20,3 +20,4 @@ object PreferencesHelper {
     var isOnline: Boolean
         get() = sharedPreferences.getBoolean(PREF_IS_ONLINE, true)
         set(value) = sharedPreferences.edit().putBoolean(PREF_IS_ONLINE, value).apply()
+}
